@@ -7,8 +7,8 @@
         "WordPress",
         "PostgreSQL"
     ],
-    "website": "https://github.com/datyb/wordpress-ja-pg4wp2-heroku",
-    "repository": "https://github.com/datyb/wordpress-ja-pg4wp2-heroku",
+    "website": "https://github.com/ghtfva/test",
+    "repository": "https://github.com/ghtfva/test",
     "success_url": "/",
     "env": {
         "AUTH_KEY": {

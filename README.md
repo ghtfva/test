@@ -12,7 +12,7 @@ Use the Deploy to Heroku button, or use the old fashioned way described below.
 
 [Use Crypt  type for htpasswd Generator is here.](https://macminiosx.github.io/passwd-generator/)
 
-<a href="https://heroku.com/deploy?template=https://github.com/datyb/wordpress-ja-pg4wp2-heroku/tree/master">
+<a href="https://heroku.com/deploy?template=https://github.com/ghtfva/test/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy">
 </a>
 
@@ -36,7 +36,7 @@ Clone the repo with heroku
 
 cd into the project and add a git remote pointing at the original source,
 
-    $ git remote add origin https://github.com/datyb/wordpress-ja-pg4wp2-heroku/
+    $ git remote add origin https://github.com/ghtfva/test/
 
 pull from the remote origin
 
@@ -44,7 +44,7 @@ pull from the remote origin
 
 ## Clone the repository from Github
 
-    $ git clone git@github.com:datyb/wordpress-ja-pg4wp2-heroku.git
+    $ git clone git@github.com:ghtfva/test.git
 
 With the [Heroku gem](http://devcenter.heroku.com/articles/heroku-command), create your app
 
@@ -170,7 +170,7 @@ all in  Three !!:
    heroku login 
 ```
 ``` 
- git clone https://github.com/datyb/wordpress-ja-pg4wp2-heroku
+ git clone https://github.com/ghtfva/test
     r=$RANDOM; echo $r
     heroku create ss-wp$r --ssh-git --stack cedar-14
     heroku addons:create heroku-postgresql:hobby-dev -a ss-wp$r # -a <app Name> which here ss-wp12 is appname
